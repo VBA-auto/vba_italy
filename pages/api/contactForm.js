@@ -21,7 +21,7 @@ const ContactForm = async (req, res) => {
     const mailOptions = {
       from: `${email}`,
       to: "contact@laboiteautomatique.com",
-      subject: "New ES Contact Form Submission from",
+      subject: "New IT Contact Form Submission from",
       text: `
 Un utilisateur à rempli le formulaire de contact sur le site https://laboiteautomatique.com :\n\nEmail: ${email}\n\nTéléphone: ${phone}\n\nNom et prénom: ${name}\n\nCatégorie: ${category}\n\nMessage: ${message}
       `,
