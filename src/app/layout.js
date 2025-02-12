@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Poppins } from "next/font/google"; // Importing Poppins
 
 export const metadata = {
-  title: "VBA Calculateur Renault - ES",
+  title: "VBA Calculateur Renault - IT",
   description: "Vente de calculateur Renault",
   icon: "/favicon.ico",
 };
@@ -16,7 +16,7 @@ const poppins = Poppins({
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="es">
+    <html lang="it">
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
