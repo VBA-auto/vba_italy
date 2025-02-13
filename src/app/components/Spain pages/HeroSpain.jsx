@@ -16,7 +16,7 @@ const HeroSpain = () => {
             <div className="bannerMain flex md:gap-5">
               <div className="xl:w-1/2 carssearch">
                 <div className="homeContentMain">
-                  <h2 className="heroH1">Calcolatore Renault (cambio EDC)</h2>
+                  <h2 className="heroH1">Centralina Cambio Renault (EDC)</h2>
                   <h2 className="text-[24px] font-semibold text-[#374151]">
                     Vendita riprogrammazione
                   </h2>
@@ -143,7 +143,7 @@ const HeroSpain = () => {
                   </div>
                   <div className="mb-5">
                     <h2 className="text-[23px] text-[#374151] font-semibold">
-                      Calculadora Renault (caja EDC)
+                      Centralina Cambio Renault (EDC)
                     </h2>
                     {/* <p className="text-[20px] font-semibold text-[#374151]">
                       Vente et reprogrammation
