@@ -30,6 +30,7 @@ const SimpleSlider = () => {
           alt={`Slide ${currentIndex + 1}`}
           objectFit="cover"
           className="mx-auto"
+          unoptimized
         />
       </div>
 

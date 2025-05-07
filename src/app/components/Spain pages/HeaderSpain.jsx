@@ -61,6 +61,7 @@ const HeaderSpain = () => {
                     src="/images/logoItaly.webp"
                     alt="Logo"
                     className=""
+                    unoptimized
                     priority
                   />
                 </div>

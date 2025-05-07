@@ -168,6 +168,7 @@ const SearchBarHomeSpain = () => {
                       <div className="md:w-1/6">
                         <Image
                           width={80}
+                          unoptimized
                           height={50}
                           src={item?.images[0] || "/images/searchP1.webp"}
                           alt=""

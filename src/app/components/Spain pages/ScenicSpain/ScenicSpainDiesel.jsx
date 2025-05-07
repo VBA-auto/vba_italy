@@ -119,6 +119,7 @@ const ScenicSpainDiesel = () => {
                         src={imagesSlide[0]}
                         width={60}
                         height={50}
+                        unoptimized
                         className="w-[60px] h-[40px]"
                         alt=""
                       />
@@ -188,6 +189,7 @@ const ScenicSpainDiesel = () => {
                         width={60}
                         height={50}
                         className=""
+                        unoptimized
                         alt=""
                       />
                     </div>

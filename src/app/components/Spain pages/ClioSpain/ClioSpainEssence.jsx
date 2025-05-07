@@ -118,6 +118,7 @@ const ClioSpainEssence = () => {
                         src={imagesSlide[0]}
                         width={60}
                         height={50}
+                        unoptimized
                         className="w-[60px] h-[40px]"
                         alt=""
                       />
@@ -186,6 +187,7 @@ const ClioSpainEssence = () => {
                         src={imagesSlide[0]}
                         width={60}
                         height={50}
+                        unoptimized
                         className=""
                         alt=""
                       />

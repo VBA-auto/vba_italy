@@ -87,6 +87,7 @@ const ReviewSlider = () => {
                     <Image
                       src={review.userImage}
                       width={50}
+                      unoptimized
                       height={50}
                       alt="review user image"
                       className="rounded-full"
@@ -153,6 +154,7 @@ const ReviewSlider = () => {
                   src={selectedReview.userImage}
                   width={50}
                   height={50}
+                  unoptimized
                   alt="review user image"
                   className="rounded-full"
                 />

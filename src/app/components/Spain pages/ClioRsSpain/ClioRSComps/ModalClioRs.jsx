@@ -19,6 +19,7 @@ const ModalClioRs = () => {
         <div className="px-4 mt-3">
           <Image
             width={400}
+            unoptimized
             height={300}
             src="/images/productDefault.webp"
             alt=""
@@ -32,6 +33,7 @@ const ModalClioRs = () => {
             <Image
               width={110}
               height={100}
+              unoptimized
               src="/images/calculateur_DC4_clioRS.webp"
               alt="calculateur_DC4_Renault_Capture"
               loading="lazy"

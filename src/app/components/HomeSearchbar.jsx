@@ -88,6 +88,7 @@ const HomeSearchbar = ({ onSearch }) => {
                           height={50}
                           src={item.images[0]}
                           alt="Product Image"
+                          unoptimized
                         />
                       </div>
                       <div className="w-3/4">

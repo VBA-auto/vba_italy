@@ -52,6 +52,7 @@ const ResponsiveSlider = ({ images }) => {
             height={100}
             src={images[currentIndex]}
             alt={`Slide ${currentIndex}`}
+            unoptimized
           />
         </div>
       </div>
@@ -89,6 +90,7 @@ const ResponsiveSlider = ({ images }) => {
                 src={image}
                 width={80}
                 height={65}
+                unoptimized
                 alt={`Thumbnail ${index}`}
                 onClick={() => handleThumbnailClick(index)}
                 className="mx-2 cursor-pointer rounded object-cover w-[70px] h-[51px]"

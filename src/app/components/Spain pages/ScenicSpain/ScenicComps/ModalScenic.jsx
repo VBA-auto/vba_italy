@@ -21,6 +21,7 @@ const ModalScenic = () => {
             <Image
               width={400}
               height={300}
+              unoptimized
               src="/images/productScenic.webp"
               alt=""
               objectFit="cover"
@@ -33,6 +34,7 @@ const ModalScenic = () => {
               <Image
                 width={110}
                 height={100}
+                unoptimized
                 src="/images/calculateur_DC4_renault_Senic.webp"
                 alt="calculateur_DC4_Renault_Capture"
                 loading="lazy"

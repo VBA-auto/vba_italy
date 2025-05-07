@@ -20,6 +20,7 @@ const ModalMegane = () => {
         </div>
         <div className="px-4 mt-3">
           <Image
+            unoptimized
             width={400}
             height={300}
             src="/images/productMegane.webp"
@@ -33,6 +34,7 @@ const ModalMegane = () => {
           <div className="w-1/3">
             <Image
               width={110}
+              unoptimized
               height={100}
               src="/images/calculateur_DC4_renault-megane.webp"
               alt="calculateur_DC4_Renault_Capture"

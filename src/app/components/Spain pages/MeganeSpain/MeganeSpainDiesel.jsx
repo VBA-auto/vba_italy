@@ -119,6 +119,7 @@ const MeganeSpainDiesel = () => {
                       <Image
                         src={imagesSlide[0]}
                         width={60}
+                        unoptimized
                         height={50}
                         className="w-[60px] h-[40px]"
                         alt=""
@@ -188,6 +189,7 @@ const MeganeSpainDiesel = () => {
                         src={imagesSlide[0]}
                         width={60}
                         height={50}
+                        unoptimized
                         className=""
                         alt=""
                       />

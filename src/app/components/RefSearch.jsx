@@ -95,6 +95,7 @@ const RefrerenceCheckerComp = () => {
                           height={50}
                           src={item.images[0]}
                           alt=""
+                          unoptimized
                         />
                       </div>
                       <div className="w-3/4">

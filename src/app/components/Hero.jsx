@@ -122,6 +122,7 @@ const Hero = () => {
                             src={car.src}
                             alt={car.alt}
                             loading="lazy"
+                            unoptimized
                             className="m-auto h-[70px] object-contain"
                           />
                           {car.label}
@@ -187,6 +188,7 @@ const Hero = () => {
                     <div>
                       <div className="flex items-center justify-center gap-4 mt-3">
                         <Image
+                          unoptimized
                           width={80}
                           height={100}
                           src="/images/glogo.webp"
@@ -202,6 +204,7 @@ const Hero = () => {
                       </div>
                       <div className="flex justify-center items-center gap-2 mt-3  w-1/2 mx-auto bg-blue-50 py-1 rounded-md">
                         <Image
+                          unoptimized
                           width={20}
                           height={100}
                           src="/images/gicon.webp"

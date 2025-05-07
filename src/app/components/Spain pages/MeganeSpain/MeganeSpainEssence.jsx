@@ -121,6 +121,7 @@ const MeganeSpainEssence = () => {
                         src={imagesSlide[0]}
                         width={60}
                         height={50}
+                        unoptimized
                         className="w-[60px] h-[40px]"
                         alt=""
                       />
@@ -188,6 +189,7 @@ const MeganeSpainEssence = () => {
                       <Image
                         src={imagesSlide[0]}
                         width={60}
+                        unoptimized
                         height={50}
                         className=""
                         alt=""

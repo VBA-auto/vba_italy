@@ -24,6 +24,7 @@ const ModalCaptur = () => {
             <Image
               width={400}
               height={300}
+              unoptimized
               src="/images/productDefault.webp"
               alt=""
               objectFit="cover"
@@ -37,6 +38,7 @@ const ModalCaptur = () => {
             <Image
               width={110}
               height={100}
+              unoptimized
               src="/images/calculateur_DC4_Renault_Capture.webp"
               alt="calculateur_DC4_Renault_Capture"
               loading="lazy"

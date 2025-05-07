@@ -22,6 +22,7 @@ const MeganeModal = () => {
               <Image
                 width={300}
                 height={290}
+                unoptimized
                 src="/images/calculateur_DC4_renault-megane.webp"
                 className="mx-auto w-[300px] h-[170px] mb-4"
                 alt=""

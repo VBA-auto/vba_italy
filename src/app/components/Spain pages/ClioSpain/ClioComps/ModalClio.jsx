@@ -22,6 +22,7 @@ const ModalClio = () => {
           <Image
             width={400}
             height={300}
+            unoptimized
             src="/images/productDefault.webp"
             alt=""
             objectFit="cover"
@@ -33,6 +34,7 @@ const ModalClio = () => {
           <div className="w-1/3">
             <Image
               width={110}
+              unoptimized
               height={100}
               src="/images/calculateur_DC4_Renault_Clio4.webp"
               alt="calculateur_DC4_Renault_Capture"

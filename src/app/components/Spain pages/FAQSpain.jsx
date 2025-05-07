@@ -24,6 +24,7 @@ const AccordionItem = ({ title, content, image, isOpen, onClick }) => (
             width={800}
             height={500}
             loading="lazy"
+            unoptimized
             className="my-3 mx-auto"
             src={image && image}
             alt=""

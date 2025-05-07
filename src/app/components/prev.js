@@ -52,6 +52,7 @@ const SingleSearchView = ({ params }) => {
           src={SearchSingleView?.images[i] || "/placeholder-image.jpg"}
           alt={`Thumbnail ${i + 1}`}
           width={100}
+          unoptimized
           height={100}
           className="h-[40px] border"
         />

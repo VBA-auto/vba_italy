@@ -21,6 +21,7 @@ const CapturModal = () => {
             <div className="my-3">
               <Image
                 width={300}
+                unoptimized
                 height={290}
                 src="/images/calculateur_DC4_Renault_Clio4.webp"
                 className="mx-auto w-[300px] h-[170px] mb-4"

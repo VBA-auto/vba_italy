@@ -20,6 +20,7 @@ const ModalFluence = () => {
           <Image
             width={400}
             height={300}
+            unoptimized
             src="/images/productDefault.webp"
             alt=""
             objectFit="cover"
@@ -30,6 +31,7 @@ const ModalFluence = () => {
           <div className="w-1/3">
             <Image
               width={110}
+              unoptimized
               height={100}
               src="/images/calculateur_DC4_renault-fluence.webp"
               alt="calculateur_DC4_Renault_Capture"

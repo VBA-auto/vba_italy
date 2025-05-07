@@ -117,6 +117,7 @@ const CapturSpainDiesel = () => {
                       <Image
                         src={imagesSlide[0]}
                         width={60}
+                        unoptimized
                         height={50}
                         className="w-[60px] h-[40px]"
                         alt=""
@@ -188,6 +189,7 @@ const CapturSpainDiesel = () => {
                         height={50}
                         className=""
                         alt=""
+                        unoptimized
                       />
                     </div>
                     <div className="">

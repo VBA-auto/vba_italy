@@ -116,6 +116,7 @@ const ClioSpainDiesel = () => {
                     <div className="border py-2 bg-white rounded-md">
                       <Image
                         src={imagesSlide[0]}
+                        unoptimized
                         width={60}
                         height={50}
                         className="w-[60px] h-[40px]"
@@ -183,6 +184,7 @@ const ClioSpainDiesel = () => {
                       <Image
                         src={imagesSlide[0]}
                         width={60}
+                        unoptimized
                         height={50}
                         className=""
                         alt=""
